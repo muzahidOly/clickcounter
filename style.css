@@ -1,0 +1,85 @@
+.heading1 {
+    font-size: 72px;
+    background: -webkit-linear-gradient(to right,#fffbd5, #b20a2c);
+	background: linear-gradient(to left, #fffbd5, #b20a2c);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+	text-align: center;
+  }
+
+  .heading2 {
+    font-size: 32px;
+    background: #FC5C7D;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #6A82FB, #FC5C7D);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #6A82FB, #FC5C7D); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+	text-align: center;
+  }
+
+  .button
+  { display: flex;
+	justify-content: center;
+	align-content: center;
+  }
+
+  html, body {
+    width:100%; 
+    height:100%; 
+    padding:0px; 
+    margin:0px;
+    overflow: hidden;
+    background: #191d1e; /* Old browsers */
+    background: -moz-linear-gradient(0deg,  #191d1e 50%, #283139 100%); /* FF3.6+ */
+   
+    background: -webkit-linear-gradient(0deg,  #191d1e 50%,#283139 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(0deg,  #191d1e 50%,#283139 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(0deg,  #191d1e 50%,#283139 100%); /* IE10+ */
+    background: linear-gradient(0deg,  #191d1e 50%,#283139 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#191d1e', endColorstr='#283139',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+    background-attachment: fixed
+  }
+  
+  #projector {
+    position: absolute; 
+    top: 0px;
+    left: 0px;
+    width:100%;
+    height:100%;
+  } 
+  
+  .center-div {
+    width:580px;
+      height:374px;
+      position:absolute;
+      left:50%;
+      top:50%;
+      margin-left: -290px;
+      margin-top:  -187px;
+  }
+  
+  #preloaderDiv
+  {
+    position:absolute;
+    left:50%;
+      top:50%;
+      margin-left: -27px;
+      margin-top:  -27px;
+  }
+  
+  #logo{
+    opacity:0;
+      filter: alpha(opacity=0);
+  }
+  
+  #date2014
+  {
+    position:absolute;
+    padding-left: 210px;
+    padding-top:15px;
+    opacity:0;
+    top:303px;
+    left:0;
+      filter: alpha(opacity=0);
+  }
